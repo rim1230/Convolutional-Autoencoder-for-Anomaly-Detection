@@ -1,2 +1,2 @@
 # Convolutional-Autoencoder-for-Anomaly-Detection
-Convolutional and MLP-based Autoencoders for time series anomaly detection with PyTorch
+Convolutional and MLP-based Neural Networks (Autoencoders) for time series anomaly detection with PyTorch
