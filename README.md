@@ -10,14 +10,16 @@ This repository provides a PyTorch implementation of autoencoders (both Convolut
 - CSV waveform input support
 
 ## Directory Structure
+```
 .
 ├── data/              # CSV waveform data
 ├── configs/           # YAML config files
 ├── src/               # Model & utility code
-    ├── main.py        # Training + evaluation entry point
+    └── main.py        # Training + evaluation entry point
 ├── outputs/           # Results, scores
 └── README.md
-- 
+```
+
 ## Usage
 
 1. **Prepare Data**  
@@ -27,7 +29,7 @@ This repository provides a PyTorch implementation of autoencoders (both Convolut
    ```bash
    python3 main.py --config configs/sample.json
    ```
-- Reconstruction loss in `outputs/`
+- Reconstruction loss saved in `outputs/` directory.
 
 ## Requirements
 - Python 3.8+
@@ -35,4 +37,4 @@ This repository provides a PyTorch implementation of autoencoders (both Convolut
 - Numpy, torchinfo, tqdm
 
 ## License
-- MIT License
+MIT License
