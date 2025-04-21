@@ -1,0 +1,25 @@
+{
+  "seed": 314,
+  "model": {
+    "type": "CAE",
+    "input_dim": 5000,
+    "kernel_size": 11
+  },
+  "training": {
+    "epochs": 20,
+    "learning_rate": 0.001
+  },
+  "data": {
+    "data_dir": "", 
+    "batch_size": 1024,
+    "test_batch_size": 60,
+    "val_split": 0.2,
+    "shuffle": true,
+    "scaled": true,
+    "weight": 0.0005,
+    "normalization": false 
+  },
+  "output": {
+    "dir": "../outputs/sample/"
+  }
+}
