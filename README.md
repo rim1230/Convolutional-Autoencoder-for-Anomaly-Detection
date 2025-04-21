@@ -13,7 +13,7 @@ This repository provides a PyTorch implementation of autoencoders (both Convolut
 ```
 .
 ├── data/              # CSV waveform data
-├── configs/           # YAML config files
+├── configs/           # json config files
 ├── src/               # Model & utility code
     └── main.py        # Training + evaluation entry point
 ├── outputs/           # Results, scores
